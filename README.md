@@ -17,7 +17,7 @@ perform the steps required to build the package.
 $ rpmbuild -bs SPECS/bat.spec
 
 # build rpm with mock
-$ mock -r epel-8-x86_64 --rebuild SRPMS/bat-*.srpm
+$ mock -r epel-8-x86_64 --rebuild SRPMS/bat-*.src.rpm
 ```
 
 With this command, your output should be in
